@@ -5,8 +5,9 @@
 2. Prerequisites
 3. Installation
 4. How to Run
-5. Usage
-6. Tests
+5. Docker Deployment
+6. Usage
+7. Tests
 
 ```
 -blog-platform-shyftlabs
@@ -82,6 +83,20 @@ Run the Development Server
 
 The API will be available at http://127.0.0.1:8000/graphql.
 
+
+## Docker Deployment
+
+### Build and run Containers
+
+```
+docker-compose up --build
+```
+
+### Stop Containers
+
+```
+docker-compose down
+```
 
 
 ## Usage
