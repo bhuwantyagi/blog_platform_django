@@ -59,7 +59,9 @@ source venv/bin/activate
 ```
 
 Install Requirements
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 Update settings.py
@@ -72,15 +74,21 @@ Open ```backend/settings.py``` and update the DATABASE and other configurations 
 
 Initialize the Database
 
-```python manage.py migrate```
+```
+python manage.py migrate
+```
 
 Create Superuser (Optional)
 
-```python manage.py createsuperuser```
+```
+python manage.py createsuperuser
+```
 
 Run the Development Server
 
-```python manage.py runserver```
+```
+python manage.py runserver
+```
 
 The API will be available at http://127.0.0.1:8000/graphql.
 
@@ -130,4 +138,6 @@ mutation {
 ## Test
 Run the following command to execute the tests:
 
-```python manage.py test```
+```
+python manage.py test
+```
