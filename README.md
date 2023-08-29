@@ -41,7 +41,9 @@
 
 Clone the Repository
 
-```git clone https://github.com/bhuwantyagi/blog_platform_shyftlabs.git```
+```
+git clone https://github.com/bhuwantyagi/blog_platform_shyftlabs.git
+```
 
 Navigate To Directory
 ```
